@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<h1> Conta de soma</h1>
+
+<button type="button" onclick="ativarBotao()"  >clique aqui</button>
+
+
+
+<script>
+function ativarBotao(){
+var n1=Number(window.prompt('digite o primeiro numero'))
+var n2=Number(window.prompt('digite o segundo numero'))
+var r=n1+n2
+window.alert(`a soma entre ${n1} e ${n2} é igual a ${r}`)
+
+if(r>=5){
+document.write('maior ou igual que cinco');
+}else{
+document.write('até cinco')
+}
+
+}
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
