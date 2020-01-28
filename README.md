@@ -1,2 +1,1 @@
-# JavaScript
-# JavaScript
+# Iniciando aprendizado em Java Script.
