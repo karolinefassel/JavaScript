@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Estudo do splice</title>
+</head>
+
+<body >
+<script>
+
+var mochila=[];
+
+mochila.push("lapis"); //posição 0     vai sair lapis
+mochila.push("caneta"); //posição 1
+mochila.push("borracha"); //posição 2
+mochila.push("cola"); //posição 3      vai sair cola
+
+mochila.splice(1,1); //retira o valor contido apartir da posição 1 e apenas ele(1vez)
+mochila.splice(2,1);// como foi retirado um valor, os valores são atualizados tirando os retirados.
+//retira o valor contido apartir da posição 2 e apenas ele(1 vez)
+
+document.write(mochila[0]+"<br>");
+document.write(mochila[1]+"<br>");
+document.write(mochila[2]+"<br>");
+document.write(mochila[3]+"<br>");
+
+</script>
+</body>
+</html>
