@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+</head>
+<body>
+<script>
+var mochilas=[];//vai concatenar mochila 1 e 2
+var mochila1=[];
+var mochila2=[];
+
+mochila1.push("lapis");
+mochila1.push("caderno");
+mochila1.push("borracha");
+
+mochila2.push("meia");
+mochila2.push("camiseta");
+mochila2.push("calça");
+
+mochilas=mochila1.concat(mochila2); //concatenando
+
+document.write(mochilas[0]+"<br>");
+document.write(mochilas[1]+"<br>");
+document.write(mochilas[2]+"<br>");
+document.write(mochilas[3]+"<br>");
+document.write(mochilas[4]+"<br>");
+document.write(mochilas[5]+"<br>");
+
+document.write("Tamanho da mochila 1: "  +mochila1.length+ "<br>");
+document.write("Tamanho da mochila 2: "  +mochila2.length+ "<br>");
+document.write("Tamanho total da mochilas: "  +mochilas.length+" <br>");//mostra a quantidade
+</script>
+</body>
+</html>
