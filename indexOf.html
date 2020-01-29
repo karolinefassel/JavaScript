@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+
+var mochila=[],pos;
+
+mochila.push("lapis");
+mochila.push("caneta");
+mochila.push("borracha");
+
+pos=mochila.indexOf("caneta"); //procura por "caneta"
+
+if(pos <0){ // ou if(pos == -1) ja q é o resultado que retorna de algo que não esta na mochila
+document.write("item não esta na mochila");
+}else{
+document.write("item esta na mochila<br> na posição: "+pos);
+}
+
+</script>
+</body>
+</html>
